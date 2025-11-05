@@ -71,3 +71,17 @@ body {
     width: 80px;
     font-size: 24px;
 }
+
+@keyframes slide-right {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(150%);
+    }
+}
+
+.remove{
+    animation: slide-right 2s;
+    animation-delay: 100ms;
+}
